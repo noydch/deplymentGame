@@ -1,0 +1,23 @@
+body{
+    background-color: #000;
+    color: white;
+    overflow: hidden;
+}
+#snake {
+    width: 30px;
+    height: 10px;
+    background-color: lightskyblue;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    font-size: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+#frog {
+    position: absolute;
+    /* transition: all 0.1s ease-in-out; */
+    right: 40px;
+    font-size: 20px;
+}
